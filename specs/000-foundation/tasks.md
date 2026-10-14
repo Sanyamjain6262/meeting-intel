@@ -9,7 +9,7 @@ One task per commit. Each task names the acceptance criteria it covers. Lint, ty
 - [x] 4 + 5. App factory, `app/db.py`, `GET /health` and `GET /health/db`, with tests for reachable and unreachable database (AC-3, AC-4, AC-6). One commit: the health router needs the session dependency.
 - [x] 6. Alembic initialised for async and wired to `Settings`; `alembic upgrade head` runs clean (AC-5)
 - [x] 7. `.github/workflows/ci.yml` with a Postgres service (AC-8)
-- [ ] 8. Create the public GitHub repository and push (AC-8)
+- [x] 8. Create the public GitHub repository and push (AC-8)
 
 ## Verification
 
@@ -20,6 +20,6 @@ One task per commit. Each task names the acceptance criteria it covers. Lint, ty
 - [x] AC-5 demonstrated: `alembic upgrade head` completed against `meeting_intel`
 - [x] AC-6 demonstrated: `uv run pytest` 6 passed
 - [x] AC-7 demonstrated: ruff check, ruff format and mypy clean
-- [ ] AC-8 demonstrated: green run in the GitHub Actions tab
+- [x] AC-8 demonstrated: GitHub Actions run 38644916381 green (lint, types, migration, tests)
 - [x] AC-9 demonstrated: files present, `backend/.env` and `backend/.venv` ignored
-- [ ] Status set to Done in `docs/ROADMAP.md`
+- [x] Status set to Done in `docs/ROADMAP.md`

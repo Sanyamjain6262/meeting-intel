@@ -1,6 +1,6 @@
 # 000: Foundation
 
-Status: In progress
+Status: Done
 
 ## Goal
 

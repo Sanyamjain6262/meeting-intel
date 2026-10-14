@@ -22,7 +22,7 @@ Status values: **Draft** (written, not reviewed), **Approved** (ready to plan an
 
 | # | Spec | Goal | Needs | Status |
 |---|---|---|---|---|
-| 000 | [Foundation](../specs/000-foundation/spec.md) | Runnable, tested project skeleton | none | In progress |
+| 000 | [Foundation](../specs/000-foundation/spec.md) | Runnable, tested project skeleton | none | Done |
 | 001 | [Auth](../specs/001-auth/spec.md) | Users can register and log in | 000 | Draft (stub) |
 | 002 | [Meetings data](../specs/002-meetings-data/spec.md) | Store meetings, segments, notes | 001 | Draft (stub) |
 | 003 | [Live transcription](../specs/003-live-transcription/spec.md) | Audio in, transcript out | 002 | Draft (stub) |
@@ -51,6 +51,8 @@ Checked on 2026-10-13: Python 3.13 is installed; Git, uv, PostgreSQL, Node.js an
 
 ## Next action
 
-Spec 000 needs only its last task: create the public GitHub repository, push, and confirm CI is green. See [`specs/000-foundation/tasks.md`](../specs/000-foundation/tasks.md). Then expand spec 001 (Auth).
+Expand [`specs/001-auth/spec.md`](../specs/001-auth/spec.md) from a stub into a full spec, then review and approve it.
+
+Repository: https://github.com/Sanyamjain6262/meeting-intel
 
 Working agreement: Claude writes each task and explains it; you review. The GitHub repository is public and named `meeting-intel`.
